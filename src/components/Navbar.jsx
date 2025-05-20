@@ -2,6 +2,7 @@
 import React from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { BsMoon, BsSun } from "react-icons/bs";
+import mycv from "./mycv/CV.pdf"
 
 export default function Navbar({ toggleDarkMode, darkMode }) {
   const [navOpen, setNavOpen] = React.useState(false);
@@ -23,9 +24,11 @@ export default function Navbar({ toggleDarkMode, darkMode }) {
             <li><a href="#projects" className="hover:text-purple-600 dark:hover:text-purple-400">Projects</a></li>
             <li><a href="#contact" className="hover:text-purple-600 dark:hover:text-purple-400">Contact</a></li>
             <li>
-              <a href="#contact" className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
-                Hire Me
-              </a>
+              <a href={mycv} download className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+>
+  Get my CV
+</a>
+
             </li>
           </ul>
 

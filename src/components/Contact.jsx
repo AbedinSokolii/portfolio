@@ -216,22 +216,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="flex items-start space-x-5">
-                  <div className="p-3 bg-blue-100 dark:bg-blue-900/30 rounded-xl text-blue-500 dark:text-blue-400">
-                    <FaTwitter size={24} />
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-gray-700 dark:text-gray-300">Twitter</h4>
-                    <a 
-                      href="https://twitter.com/your-handle" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-blue-600 dark:text-blue-400 hover:underline"
-                    >
-                      @your-handle
-                    </a>
-                  </div>
-                </div>
+ 
               </div>
 
               <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-700">
